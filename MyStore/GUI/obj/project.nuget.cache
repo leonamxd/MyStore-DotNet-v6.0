@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "CgyhDSXXQisuNidEGZMSzzA8KIkwqXQlJZiPka6c8mXnpCfn+N4fT/tNmelRcHYlSjw9z6DSmdwnF/3FrDk/2Q==",
+  "dgSpecHash": "i6SyFvgrIoL89gnEnoeh14jCqlnNBpyeNOpHvwolpx+bV9HSaujY2OkoY1Nl1Fbs4SAXIZITlRE2QOuRUWhCcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leonam\\source\\repos\\MyStore-v0.2\\GUI\\GUI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Leonam\\source\\repos\\MyStore-v0.2\\MyStore\\GUI\\GUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Leonam\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Leonam\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\Leonam\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\Leonam\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Leonam\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Leonam\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Leonam\\.nuget\\packages\\system.data.sqlclient\\4.8.3\\system.data.sqlclient.4.8.3.nupkg.sha512",
+    "C:\\Users\\Leonam\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\Leonam\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

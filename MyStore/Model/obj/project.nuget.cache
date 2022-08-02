@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "omYmnfMH+vu9fesxmZxLy+k29U4bci9CiP7e/i1c4CLz33I1cMKdGMKZRQRzhL2RAFqvE8Vj8lCgQVFkjsRa4g==",
+  "dgSpecHash": "IoHa/OHQuOILwOxMhC7QITuvTOirTPZ8w5jJ+QyKFgQo2s/TUdM7Fj385jIK7s97jPH1PkNAdV/yCtsXBKIhlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leonam\\source\\repos\\MyStore-v0.2\\Model\\Model.csproj",
+  "projectFilePath": "C:\\Users\\Leonam\\source\\repos\\MyStore-v0.2\\MyStore\\Model\\Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

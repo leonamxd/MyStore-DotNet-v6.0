@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leonam\\source\\repos\\MyStore-v0.2\\Ferramentas\\Ferramentas.csproj": {}
+    "C:\\Users\\Leonam\\source\\repos\\MyStore-v0.2\\MyStore\\Ferramentas\\Ferramentas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leonam\\source\\repos\\MyStore-v0.2\\Ferramentas\\Ferramentas.csproj": {
+    "C:\\Users\\Leonam\\source\\repos\\MyStore-v0.2\\MyStore\\Ferramentas\\Ferramentas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leonam\\source\\repos\\MyStore-v0.2\\Ferramentas\\Ferramentas.csproj",
+        "projectUniqueName": "C:\\Users\\Leonam\\source\\repos\\MyStore-v0.2\\MyStore\\Ferramentas\\Ferramentas.csproj",
         "projectName": "Ferramentas",
-        "projectPath": "C:\\Users\\Leonam\\source\\repos\\MyStore-v0.2\\Ferramentas\\Ferramentas.csproj",
+        "projectPath": "C:\\Users\\Leonam\\source\\repos\\MyStore-v0.2\\MyStore\\Ferramentas\\Ferramentas.csproj",
         "packagesPath": "C:\\Users\\Leonam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leonam\\source\\repos\\MyStore-v0.2\\Ferramentas\\obj\\",
+        "outputPath": "C:\\Users\\Leonam\\source\\repos\\MyStore-v0.2\\MyStore\\Ferramentas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
