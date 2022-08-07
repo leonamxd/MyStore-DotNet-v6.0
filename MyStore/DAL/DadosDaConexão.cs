@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DAL
+﻿namespace DAL
 {
     public class DadosDaConexão
     {
@@ -12,6 +6,7 @@ namespace DAL
         public static String banco = "MyStore";
         public static String usuario = "sa";
         public static String senha = "321300Xd";
+
         public static String StringDeConexao
         {
             get

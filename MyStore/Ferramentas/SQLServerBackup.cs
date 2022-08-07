@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ferramentas
 {
@@ -29,7 +24,6 @@ namespace Ferramentas
                 {
                     lista.Add(dr["name"]);
                 }
-
             }
             catch (Exception erro)
             {
@@ -65,7 +59,6 @@ namespace Ferramentas
                 cn.Close();
             }
             //return backup;
-
         }
 
         public static void RestauraDatabase(String ConnString, string nomeDB, string backupFile)

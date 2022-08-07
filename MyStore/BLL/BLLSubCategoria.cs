@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DAL;
+﻿using DAL;
 using Model;
+using System.Data;
 
 namespace BLL
 {
     public class BLLSubCategoria
     {
         public DALConexao Conexao { get; set; }
+
         public BLLSubCategoria(DALConexao _cx)
         {
             Conexao = _cx;

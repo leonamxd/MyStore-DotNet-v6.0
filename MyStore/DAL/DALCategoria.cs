@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Model;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Model;
 
 namespace DAL
 {
@@ -29,6 +24,7 @@ namespace DAL
             _model.Cat_cod = Convert.ToInt32(cmd.ExecuteScalar());
             DALConexao.Desconectar();
         }
+
         public void Alterar(ModelCategoria _model)
         {
             SqlCommand cmd = new SqlCommand();
@@ -41,6 +37,7 @@ namespace DAL
             cmd.ExecuteNonQuery();
             DALConexao.Desconectar();
         }
+
         public void Excluir(int _cod)
         {
             SqlCommand cmd = new SqlCommand();
@@ -51,6 +48,7 @@ namespace DAL
             cmd.ExecuteNonQuery();
             DALConexao.Desconectar();
         }
+
         public DataTable Localizar(String _value)
         {
             DataTable tabela = new DataTable();
@@ -60,6 +58,7 @@ namespace DAL
             da.Fill(tabela);
             return tabela;
         }
+
         public ModelCategoria CarregaModelCategoria(int _cod)
         {
             ModelCategoria modelo = new ModelCategoria();

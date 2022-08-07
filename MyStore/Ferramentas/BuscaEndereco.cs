@@ -1,19 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data;
 
 namespace Ferramentas
 {
     public class BuscaEndereco
     {
-        static public String cep = "";
-        static public String cidade = "";
-        static public String estado = "";
-        static public String endereco = "";
-        static public String bairro = "";
+        public static String cep = "";
+        public static String cidade = "";
+        public static String estado = "";
+        public static String endereco = "";
+        public static String bairro = "";
 
         public static Boolean verificaCEP(String CEP)
         {

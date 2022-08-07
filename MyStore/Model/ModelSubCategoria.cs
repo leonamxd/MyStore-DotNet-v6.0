@@ -12,6 +12,7 @@
             Scat_nome = "";
             FK_Cat_cod = 0;
         }
+
         public ModelSubCategoria(int _scat_cod, int _fk_cat_cod, String _scat_nome)
         {
             Scat_cod = _scat_cod;

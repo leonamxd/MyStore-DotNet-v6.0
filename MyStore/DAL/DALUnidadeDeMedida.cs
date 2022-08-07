@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Model;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Model;
 
 namespace DAL
 {
@@ -39,6 +34,7 @@ namespace DAL
                 DALConexao.Desconectar();
             }
         }
+
         public void Alterar(ModelUnidadeDeMedida _model)
         {
             try
@@ -61,6 +57,7 @@ namespace DAL
                 DALConexao.Desconectar();
             }
         }
+
         public void Excluir(int _cod)
         {
             try
@@ -82,6 +79,7 @@ namespace DAL
                 DALConexao.Desconectar();
             }
         }
+
         public DataTable Localizar(String _value)
         {
             DataTable tabela = new DataTable();
@@ -90,6 +88,7 @@ namespace DAL
             sqlDataAdapter.Fill(tabela);
             return tabela;
         }
+
         public int VerificaUnidadeDeMedida(String _value)
         {
             int aux = 0;
@@ -107,6 +106,7 @@ namespace DAL
             DALConexao.Desconectar();
             return aux;
         }
+
         public ModelUnidadeDeMedida CarregaModelUnidadeDeMedida(int _cod)
         {
             ModelUnidadeDeMedida model = new ModelUnidadeDeMedida();

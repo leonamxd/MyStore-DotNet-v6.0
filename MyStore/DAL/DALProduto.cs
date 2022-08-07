@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Model;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Model;
 
 namespace DAL
 {
@@ -48,6 +43,7 @@ namespace DAL
             _model.Pro_cod = Convert.ToInt32(cmd.ExecuteScalar());
             DALConexao.Desconectar();
         }
+
         public void Excluir(int _cod)
         {
             SqlCommand cmd = new SqlCommand();
@@ -58,6 +54,7 @@ namespace DAL
             cmd.ExecuteNonQuery();
             DALConexao.Desconectar();
         }
+
         public void Alterar(ModelProduto _model)
         {
             SqlCommand cmd = new SqlCommand();
@@ -88,6 +85,7 @@ namespace DAL
             cmd.ExecuteNonQuery();
             DALConexao.Desconectar();
         }
+
         public DataTable Localizar(String _value)
         {
             DataTable tabela = new DataTable();
@@ -101,6 +99,7 @@ namespace DAL
             da.Fill(tabela);
             return tabela;
         }
+
         public ModelProduto CarregaModelProduto(int _cod)
         {
             ModelProduto model = new ModelProduto();

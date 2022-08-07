@@ -10,3 +10,15 @@ C:\Users\Leonam\source\repos\MyStore-v0.2\Ferramentas\obj\Debug\net6.0\Ferrament
 C:\Users\Leonam\source\repos\MyStore-v0.2\Ferramentas\obj\Debug\net6.0\refint\Ferramentas.dll
 C:\Users\Leonam\source\repos\MyStore-v0.2\Ferramentas\obj\Debug\net6.0\Ferramentas.pdb
 C:\Users\Leonam\source\repos\MyStore-v0.2\Ferramentas\obj\Debug\net6.0\ref\Ferramentas.dll
+C:\Users\Leonam\source\repos\MyStore-v0.2\MyStore\Ferramentas\bin\Debug\net6.0\Ferramentas.deps.json
+C:\Users\Leonam\source\repos\MyStore-v0.2\MyStore\Ferramentas\bin\Debug\net6.0\Ferramentas.dll
+C:\Users\Leonam\source\repos\MyStore-v0.2\MyStore\Ferramentas\bin\Debug\net6.0\Ferramentas.pdb
+C:\Users\Leonam\source\repos\MyStore-v0.2\MyStore\Ferramentas\obj\Debug\net6.0\Ferramentas.csproj.AssemblyReference.cache
+C:\Users\Leonam\source\repos\MyStore-v0.2\MyStore\Ferramentas\obj\Debug\net6.0\Ferramentas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonam\source\repos\MyStore-v0.2\MyStore\Ferramentas\obj\Debug\net6.0\Ferramentas.AssemblyInfoInputs.cache
+C:\Users\Leonam\source\repos\MyStore-v0.2\MyStore\Ferramentas\obj\Debug\net6.0\Ferramentas.AssemblyInfo.cs
+C:\Users\Leonam\source\repos\MyStore-v0.2\MyStore\Ferramentas\obj\Debug\net6.0\Ferramentas.csproj.CoreCompileInputs.cache
+C:\Users\Leonam\source\repos\MyStore-v0.2\MyStore\Ferramentas\obj\Debug\net6.0\Ferramentas.dll
+C:\Users\Leonam\source\repos\MyStore-v0.2\MyStore\Ferramentas\obj\Debug\net6.0\refint\Ferramentas.dll
+C:\Users\Leonam\source\repos\MyStore-v0.2\MyStore\Ferramentas\obj\Debug\net6.0\Ferramentas.pdb
+C:\Users\Leonam\source\repos\MyStore-v0.2\MyStore\Ferramentas\obj\Debug\net6.0\ref\Ferramentas.dll

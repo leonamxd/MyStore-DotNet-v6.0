@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Model;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Model;
 
 namespace DAL
 {
@@ -40,6 +35,7 @@ namespace DAL
                 DALconexao.Desconectar();
             }
         }
+
         public void Alterar(ModelSubCategoria _model)
         {
             try
@@ -47,7 +43,7 @@ namespace DAL
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = DALconexao.Conexao;
                 cmd.CommandText = "update subcategoria set " +
-                    "scat_nome = @nome, cat_cod = @cat_cod" +
+                    "scat_nome = @nome, cat_cod = @catcod " +
                     "where scat_cod = @scatcod";
                 cmd.Parameters.AddWithValue("@nome", _model.Scat_nome);
                 cmd.Parameters.AddWithValue("@catcod", _model.FK_Cat_cod);
@@ -64,6 +60,7 @@ namespace DAL
                 DALconexao.Desconectar();
             }
         }
+
         public void Excluir(int _cod)
         {
             try
@@ -85,26 +82,31 @@ namespace DAL
                 DALconexao.Desconectar();
             }
         }
+
         public DataTable Localizar(String _value)
         {
             DataTable tabela = new DataTable();
             SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select " +
                 "sc.scat_cod, sc.scat_nome, sc.cat_cod, c.cat_nome " +
+                "from subcategoria sc inner join categoria c " +
                 "on sc.cat_cod = c.cat_cod " +
                 "where scat_nome like '%" + _value + "%'", DALconexao.StringConexao);
-           sqlDataAdapter.Fill(tabela);
+            sqlDataAdapter.Fill(tabela);
             return tabela;
         }
+
         public DataTable LocalizarProCategoria(int _categoria)
         {
             DataTable dt = new DataTable();
             SqlDataAdapter sqlDataAdapter = new SqlDataAdapter("select " +
                 "sc.scat_cod, sc.scat_nome, sc.cat_cod, c.cat_nome " +
                 "from subcategoria sc inner join categoria c " +
+                 "on sc.cat_cod = c.cat_cod " +
                 "where sc.cat_cod = " + _categoria.ToString(), DALconexao.StringConexao);
             sqlDataAdapter.Fill(dt);
             return dt;
         }
+
         public ModelSubCategoria CarregaModelSubCategoria(int _cod)
         {
             ModelSubCategoria modelo = new ModelSubCategoria();

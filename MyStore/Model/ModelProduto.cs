@@ -29,8 +29,8 @@
              String _pro_foto, Double pro_valorPago, Double _pro_valorVenda,
              int _pro_quantidade, int _umed_cod, int _cat_cod, int _scat_cod)
         {
-            Pro_cod = _pro_cod; 
-            Pro_nome = _pro_nome; 
+            Pro_cod = _pro_cod;
+            Pro_nome = _pro_nome;
             Pro_descricao = _pro_descriocao;
             CarregaImagem(_pro_foto);
             Pro_valorPago = pro_valorPago;
@@ -56,7 +56,8 @@
             Cat_cod = _cat_cod;
             Scat_cod = _scat_cod;
         }
-        private void CarregaImagem(String _pro_foto)
+
+        public void CarregaImagem(String _pro_foto)
         {
             try
             {
