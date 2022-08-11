@@ -64,5 +64,26 @@ namespace GUI
             frmCadastroProduto.ShowDialog();
             frmCadastroProduto.Dispose();
         }
+
+        private void configuraçãoDeDadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConfiguracaoDados frmConfiguracaoDados = new frmConfiguracaoDados();
+            frmConfiguracaoDados.ShowDialog();
+            frmConfiguracaoDados.Dispose();
+        }
+        private void calculadoraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("calc");
+        }
+
+        private void explorerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("explorer");
+        }
+
+        private void notpadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("notepad");
+        }
     }
 }

@@ -65,7 +65,7 @@
                 {
                     FileInfo arqImage = new FileInfo(_pro_foto);
                     FileStream fs = new FileStream(_pro_foto, FileMode.Open, FileAccess.Read, FileShare.Read);
-                    Pro_foto = new byte[Convert.ToInt32(_pro_foto.Length)];
+                    Pro_foto = new byte[Convert.ToInt32(arqImage.Length)];
                     int iBytesRead = fs.Read(Pro_foto, 0, Convert.ToInt32(arqImage.Length));
                     fs.Close();
                 }

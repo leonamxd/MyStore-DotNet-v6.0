@@ -20,7 +20,7 @@ namespace DAL
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = DALConexao.Conexao;
                 cmd.CommandText = "insert into undmedida(umed_nome) " +
-                    "value(@nome) select @@IDENTITY;";
+                    "values(@nome) select @@IDENTITY;";
                 cmd.Parameters.AddWithValue("@nome", _model.Umed_nome);
                 DALConexao.Conectar();
                 _model.Umed_cod = Convert.ToInt32(cmd.ExecuteScalar());

@@ -74,9 +74,10 @@
             // 
             // txtCod
             // 
+            this.txtCod.Enabled = false;
             this.txtCod.Location = new System.Drawing.Point(6, 50);
             this.txtCod.Name = "txtCod";
-            this.txtCod.Size = new System.Drawing.Size(100, 23);
+            this.txtCod.Size = new System.Drawing.Size(100, 20);
             this.txtCod.TabIndex = 1;
             // 
             // label1
